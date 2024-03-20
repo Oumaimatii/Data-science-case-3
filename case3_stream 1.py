@@ -8,10 +8,8 @@ seaborn
 requests
 matplotlib.pyplot
 plotly.graph_objects
-folium.plugins 
-MarkerCluster
-streamlit_folium
-st_folium
+folium.plugins.MarkerCluster
+streamlit_folium.st_folium
 
 df = pd.read_csv("schedule_airport.csv")
 df["inkomend"] = df["LSV"].apply(lambda x: 1 if x == "L" else 0)
