@@ -1,18 +1,17 @@
-import pandas as pd
-import numpy as np
-import geopandas as gpd
-import plotly.express as px
-import folium
-import streamlit as st
-import seaborn as sns
-
-import requests
-import matplotlib.pyplot as plt
-import plotly.graph_objects as go
-from folium.plugins import MarkerCluster
-from streamlit_folium import st_folium
-
-
+pandas
+numpy
+geopandas
+plotly.express
+folium
+streamlit
+seaborn 
+requests
+matplotlib.pyplot
+plotly.graph_objects
+folium.plugins 
+MarkerCluster
+streamlit_folium
+st_folium
 
 df = pd.read_csv("schedule_airport.csv")
 df["inkomend"] = df["LSV"].apply(lambda x: 1 if x == "L" else 0)
