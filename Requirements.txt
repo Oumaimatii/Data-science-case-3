@@ -8,7 +8,5 @@ seaborn
 requests
 matplotlib.pyplot
 plotly.graph_objects
-folium.plugins 
-MarkerCluster
-streamlit_folium
-st_folium
+folium.plugins.MarkerCluster
+streamlit_folium.st_folium
