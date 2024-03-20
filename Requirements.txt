@@ -10,3 +10,4 @@ matplotlib.pyplot
 plotly.graph_objects
 folium.plugins.MarkerCluster
 streamlit_folium.st_folium
+pip install -r Requirements.txt
