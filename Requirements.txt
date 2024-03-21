@@ -4,10 +4,9 @@ geopandas
 plotly.express
 folium
 streamlit
-seaborn 
+seaborn
 requests
-matplotlib.pyplot
-plotly.graph_objects
-folium.plugins.MarkerCluster
-streamlit_folium.st_folium
-pip install -r Requirements.txt
+matplotlib
+plotly
+folium.plugins
+streamlit_folium
